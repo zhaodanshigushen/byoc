@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BYOC.iml" filepath="$PROJECT_DIR$/BYOC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dmp/dmp.iml" filepath="$PROJECT_DIR$/../dmp/dmp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dsp/dsp.iml" filepath="$PROJECT_DIR$/../dsp/dsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dmp/WebRoot/resource/script/echarts-2.1.10/echarts.iml" filepath="$PROJECT_DIR$/../dmp/WebRoot/resource/script/echarts-2.1.10/echarts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dmp/WebRoot/resource/script/jqTreeview/jquery-treeview.iml" filepath="$PROJECT_DIR$/../dmp/WebRoot/resource/script/jqTreeview/jquery-treeview.iml" />
+    </modules>
+  </component>
+</project>
+

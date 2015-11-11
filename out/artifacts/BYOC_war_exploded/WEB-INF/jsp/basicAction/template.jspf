@@ -1,0 +1,44 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ taglib prefix="s" uri="/struts-tags"%>
+<%@ taglib prefix="p" uri="/privilege-tags"%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>The Seed</title>
+<%@include file="/WEB-INF/jsp/basicAction/basic.jspf" %>
+</head>
+<body>
+<%-------------------------------------------------------------------%>
+<%---------------------------| *权限配制* |---------------------------%>
+<%-------------| PS: -> 开发者COPY模板时候, 务必添加权限标签 |------------%>
+<%-------------------------------------------------------------------%>
+<%--
+
+     -> 参数:                            
+             url: 添加检测地址, 填写访问到该JSP页面的Action地址(copy后, 请删除该段注释!!)         
+     -> 例子:                                                                           	 
+             <p:checkAndOutException url="menuAction_menu">... ....</p:checkAndOutException>  	 
+             @<<menuAction_menu>>:需要检测的地址                                                                                               
+     -> 备注:                                                                           	 
+             因权限控制到页面层, 未细粒度的控制到地址层, 每个action地址填写默认展示的列表页            	 
+             例:                                                                        
+             menuAction_list   (菜单列表页) <-<<-<<<-<<<<每个菜单相关的JSP请填写列表页<<<<<-<<<<<<*     	 
+             menuAction_addUI  (菜单列表页 -> 中添加按钮访问地址)                       	 
+             menuAction_editUI (菜单列表页 -> 中修改按钮访问地址)  
+--%>
+
+<%-- 权限控制 --%>
+<p:checkAndOutException url="">
+
+	<%-- TOP --%>
+	<%@include file="/WEB-INF/jsp/basicAction/top.jspf" %>
+	
+	<%-- LEFT --%>
+	<%@include file="/WEB-INF/jsp/basicAction/left.jspf" %>			
+				
+	<%-- BOTTOM --%>
+	<%@include file="/WEB-INF/jsp/basicAction/bottom.jspf" %>
+</p:checkAndOutException>
+</body>
+</html>

@@ -1,0 +1,87 @@
+
+<div id="mws-footer">Copyright BYOC 2014-2015. All Rights Reserved.</div>
+<!-- Placed at the end of the document so the pages load faster -->
+<!-- JQUERY -->
+<script src="${pageContext.request.contextPath}/resource/js/jquery/jquery-2.0.3.min.js"></script>
+<!-- JQUERY UI-->
+<script src="${pageContext.request.contextPath}/resource/js/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js"></script>
+<!-- BOOTSTRAP -->
+<script src="${pageContext.request.contextPath}/resource/bootstrap-dist/js/bootstrap.min.js"></script>
+
+
+<!-- DATE RANGE PICKER -->
+<script src="${pageContext.request.contextPath}/resource/js/bootstrap-daterangepicker/moment.min.js"></script>
+
+<script src="${pageContext.request.contextPath}/resource/js/bootstrap-daterangepicker/daterangepicker.min.js"></script>
+<!-- SLIMSCROLL -->
+<script type="text/javascript" src="${pageContext.request.contextPath}/resource/js/jQuery-slimScroll-1.3.0/jquery.slimscroll.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resource/js/jQuery-slimScroll-1.3.0/slimScrollHorizontal.min.js"></script>
+<!-- BLOCK UI -->
+<script type="text/javascript" src="${pageContext.request.contextPath}/resource/js/jQuery-BlockUI/jquery.blockUI.min.js"></script>
+<!-- TYPEHEAD -->
+<script type="text/javascript" src="${pageContext.request.contextPath}/resource/js/typeahead/typeahead.min.js"></script>
+<!-- AUTOSIZE -->
+<script type="text/javascript" src="${pageContext.request.contextPath}/resource/js/autosize/jquery.autosize.min.js"></script>
+<!-- COUNTABLE -->
+<script type="text/javascript" src="${pageContext.request.contextPath}/resource/js/countable/jquery.simplyCountable.min.js"></script>
+<!-- INPUT MASK -->
+<script type="text/javascript" src="${pageContext.request.contextPath}/resource/js/bootstrap-inputmask/bootstrap-inputmask.min.js"></script>
+<!-- FILE UPLOAD -->
+<script type="text/javascript" src="${pageContext.request.contextPath}/resource/js/bootstrap-fileupload/bootstrap-fileupload.min.js"></script>
+<!-- SELECT2 -->
+<script type="text/javascript" src="${pageContext.request.contextPath}/resource/js/select2/select2.min.js"></script>
+<!-- UNIFORM -->
+<script type="text/javascript" src="${pageContext.request.contextPath}/resource/js/uniform/jquery.uniform.min.js"></script>
+<!-- SPARKLINES -->
+<script type="text/javascript" src="${pageContext.request.contextPath}/resource/js/sparklines/jquery.sparkline.min.js"></script>
+<!-- JQUERY UPLOAD -->
+<!-- The Templates plugin is included to render the upload/download listings -->
+<script src="${pageContext.request.contextPath}/resource/js/blueimp/javascript-template/tmpl.min.js"></script>
+<!-- The Load Image plugin is included for the preview images and image resizing functionality -->
+<script src="${pageContext.request.contextPath}/resource/js/blueimp/javascript-loadimg/load-image.min.js"></script>
+<!-- The Canvas to Blob plugin is included for image resizing functionality -->
+<script src="${pageContext.request.contextPath}/resource/js/blueimp/javascript-canvas-to-blob/canvas-to-blob.min.js"></script>
+<!-- blueimp Gallery script -->
+<script src="${pageContext.request.contextPath}/resource/js/blueimp/gallery/jquery.blueimp-gallery.min.js"></script>
+<!-- The basic File Upload plugin -->
+<script src="${pageContext.request.contextPath}/resource/js/jquery-upload/js/jquery.fileupload.min.js"></script>
+<!-- The File Upload processing plugin -->
+<script src="${pageContext.request.contextPath}/resource/js/jquery-upload/js/jquery.fileupload-process.min.js"></script>
+<!-- The File Upload image preview & resize plugin -->
+<script src="${pageContext.request.contextPath}/resource/js/jquery-upload/js/jquery.fileupload-image.min.js"></script>
+<!-- The File Upload audio preview plugin -->
+<script src="${pageContext.request.contextPath}/resource/js/jquery-upload/js/jquery.fileupload-audio.min.js"></script>
+<!-- The File Upload video preview plugin -->
+<script src="${pageContext.request.contextPath}/resource/js/jquery-upload/js/jquery.fileupload-video.min.js"></script>
+<!-- The File Upload validation plugin -->
+<script src="${pageContext.request.contextPath}/resource/js/jquery-upload/js/jquery.fileupload-validate.min.js"></script>
+<!-- The File Upload user interface plugin -->
+<script src="${pageContext.request.contextPath}/resource/js/jquery-upload/js/jquery.fileupload-ui.min.js"></script>
+<!-- The main application script -->
+<script src="${pageContext.request.contextPath}/resource/js/jquery-upload/js/main.js"></script>
+<!-- DATA TABLES -->
+<script type="text/javascript" src="${pageContext.request.contextPath}/resource/js/datatables/media/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resource/js/datatables/media/assets/js/datatables.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resource/js/datatables/extras/TableTools/media/js/TableTools.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resource/js/datatables/extras/TableTools/media/js/ZeroClipboard.min.js"></script>
+<!-- TODO -->
+<script type="text/javascript" src="${pageContext.request.contextPath}/resource/js/jquery-todo/js/paddystodolist.js"></script>
+<!-- TIMEAGO -->
+<script type="text/javascript" src="${pageContext.request.contextPath}/resource/js/timeago/jquery.timeago.min.js"></script>
+<!-- FULL CALENDAR -->
+<script type="text/javascript" src="${pageContext.request.contextPath}/resource/js/fullcalendar/fullcalendar.min.js"></script>
+<!-- COOKIE -->
+<script type="text/javascript" src="${pageContext.request.contextPath}/resource/js/jQuery-Cookie/jquery.cookie.min.js"></script>
+<!-- GRITTER -->
+<script type="text/javascript" src="${pageContext.request.contextPath}/resource/js/gritter/js/jquery.gritter.min.js"></script>
+<!-- CUSTOM SCRIPT -->
+<script src="${pageContext.request.contextPath}/resource/js/script.js"></script>
+<script>
+    jQuery(document).ready(function() {
+        App.setPage("index");  //Set current page
+        App.init(); //Initialise plugins and elements
+    });
+</script>
+<!-- /JAVASCRIPTS -->
+</body>
+</html>

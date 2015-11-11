@@ -1,0 +1,79 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%-- encoding --%>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1" />
+<meta name="apple-mobile-web-app-capable" content="no" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+<%-- icon --%>
+<link rel="shortcut icon" type="image/x-icon" href="${pageContext.request.contextPath }/ui/images/logoicon.png" />
+
+<%-- cache clear  --%>
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0">    
+
+<%-- css  --%>
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/ui/css/reset.css"  media="screen" />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/ui/css/text.css"  media="screen" />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/ui/css/fonts/ptsans/stylesheet.css"  media="screen" />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/ui/css/fluid.css"  media="screen" />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/ui/css/mws.style.css"  media="screen" />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/ui/css/icons/16x16.css"  media="screen" />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/ui/css/icons/24x24.css"  media="screen" />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/ui/css/icons/32x32.css"  media="screen" />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/ui/css/demo.css"  media="screen" />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/ui/plugins/colorpicker/colorpicker.css"  media="screen" />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/ui/plugins/imgareaselect/css/imgareaselect-default.css"  media="screen" />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/ui/plugins/fullcalendar/fullcalendar.css"  media="screen" />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/ui/plugins/fullcalendar/fullcalendar.print.css"  media="print" />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/ui/plugins/chosen/chosen.css"  media="screen" />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/ui/plugins/prettyphoto/css/prettyPhoto.css"  media="screen" />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/ui/plugins/tipsy/tipsy.css"  media="screen" />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/ui/plugins/sourcerer/Sourcerer-1.2.css"  media="screen" />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/ui/plugins/jgrowl/jquery.jgrowl.css"  media="screen" />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/ui/plugins/spinner/ui.spinner.css"  media="screen" />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/ui/jui/css/jquery.ui.all.css"  media="screen" />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/ui/css/blue.css"  media="screen" />
+
+<%-- js --%>
+<script type="text/javascript" src="${pageContext.request.contextPath}/ui/js/jquery-1.7.2.min.js" ></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/ui/js/jquery.mousewheel.min.js" ></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/ui/js/jquery.placeholder.js" ></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/ui/js/jquery.fileinput.js" ></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/ui/jui/js/jquery-ui.js" ></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/ui/jui/js/jquery.ui.timepicker.js" ></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/ui/jui/js/jquery.ui.touch-punch.min.js" ></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/ui/plugins/spinner/ui.spinner.min.js" ></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/ui/plugins/imgareaselect/jquery.imgareaselect.min.js" ></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/ui/plugins/duallistbox/jquery.dualListBox-1.3.min.js" ></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/ui/plugins/jgrowl/jquery.jgrowl-min.js" ></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/ui/plugins/fullcalendar/fullcalendar.min.js" ></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/ui/plugins/datatables/jquery.dataTables.min.js" ></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/ui/plugins/chosen/chosen.jquery.min.js" ></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/ui/plugins/prettyphoto/js/jquery.prettyPhoto.min.js" ></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/ui/plugins/flot/jquery.flot.min.js" ></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/ui/plugins/flot/jquery.flot.pie.min.js" ></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/ui/plugins/flot/jquery.flot.stack.min.js" ></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/ui/plugins/flot/jquery.flot.resize.min.js" ></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/ui/plugins/colorpicker/colorpicker-min.js" ></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/ui/plugins/tipsy/jquery.tipsy-min.js" ></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/ui/plugins/sourcerer/Sourcerer-1.2-min.js" ></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/ui/plugins/smartwizard/js/jquery.smartWizard-2.0.js" ></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/ui/plugins/validate/jquery.validate-min.js" ></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/ui/js/core/mws.js" ></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/ui/js/core/themer.js" ></script>
+
+<%-- basic script --%>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resource/script/layer/layer.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resource/script/laydate/laydate.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resource/script/basic.js"></script>
+
+<%-- basic variable --%>
+<% 
+	/* UI目录同一地址 */
+	String ui = request.getContextPath()+"/ui/";
+	
+	pageContext.setAttribute("ui", ui);
+%>
